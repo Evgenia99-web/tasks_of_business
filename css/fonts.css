@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "TTFirs-Bold"; 
+    src: url("../fonts/TTFirs-Bold/TTFirs-Bold.eot"); 
+    src: url("../fonts/TTFirs-Bold/TTFirs-Bold.eot") format("eot"),
+    url("../fonts/TTFirs-Bold/TTFirs-Bold.woff") format("woff"), 
+    url("../fonts/TTFirs-Bold/TTFirs-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+}
+@font-face {
+    font-family: "TTFirs-ExtraBold"; 
+    src: url("../fonts/TTFirs-ExtraBold/TTFirs-ExtraBold.eot"); 
+    src: url("../fonts/TTFirs-ExtraBold/TTFirs-ExtraBold.eot") format("eot"),
+    url("../fonts/TTFirs-ExtraBold/TTFirs-ExtraBold.woff") format("woff"), 
+    url("../fonts/TTFirs-ExtraBold/TTFirs-ExtraBold.ttf") format("truetype"); 
+    font-style: normal;  
+}
+@font-face {
+    font-family: "TTFirs-Medium"; 
+    src: url("../fonts/TTFirs-Medium/TTFirs-Medium.eot"); 
+    src: url("../fonts/TTFirs-Medium/TTFirs-Medium.eot") format("eot"),
+    url("../fonts/TTFirs-Medium/TTFirs-Medium.woff") format("woff"), 
+    url("../fonts/TTFirs-Medium/TTFirs-Medium.ttf") format("truetype"); 
+    font-style: normal; 
+}
+@font-face {
+    font-family: "TTFirs-Regular"; 
+    src: url("../fonts/TTFirs-Regular/TTFirs-Regular.eot"); 
+    src: url("../fonts/TTFirs-Regular/TTFirs-Regular.eot") format("eot"),
+    url("../fonts/TTFirs-Regular/TTFirs-Regular.woff") format("woff"), 
+    url("../fonts/TTFirs-Regular/TTFirs-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+}

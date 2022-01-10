@@ -1,0 +1,250 @@
+@import "colors.css";
+@import "fonts.css";
+
+*{margin: 0;padding: 0;}
+body{background-color: var(--bg-color);}
+ul{list-style: none;}
+a{text-decoration: none;}
+.title{
+    font-family: "TTFirs-Regular";
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--white-text);
+    margin-bottom: 61px;
+}
+.main-block{
+    height: 100vh;
+    background-image: url("../img/main_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-body, .menu, .filter, .solutions{display: flex; align-items: center; justify-content: space-between;}
+.header{margin-left: 68px; margin-bottom: 185px;}
+.header-body{height: 126px;}
+.logos img{height: 60px;}
+.agency-mos{margin-left: 40px;}
+.link-item{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+.tasks{
+    padding: 55px 27px;
+    background-color: var(--primary-gray);
+    color:var(--blue-text);
+}
+.personal{
+    padding: 55px 49px;
+    background-color: var(--primary-pink);
+    color: var(--white-text);
+}
+ul.ssubmenuu {
+    position: absolute;
+    width: 126px;
+    top: 126px;
+    right:0px;    display: none;
+    background-color: #B1B6C9;
+    text-align: center;
+    width: 208px;
+}
+ul.ssubmenuu li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul.ssubmenuu li a{color: var(--black-text);}
+ul.ssubmenuu li:hover{
+    background-color: var(--primary-pink);
+    cursor:pointer;
+}
+.menu li:hover ul.ssubmenuu {display: block;}
+.container{margin-left: 68px; margin-right: 68px;}
+.main-title{
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 70px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--white-text);
+    max-width: 480px;
+    margin-bottom: 20px;
+}
+.description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 35px;
+    color: var(--white-text);
+    max-width: 600px;
+    margin-bottom: 130px;
+}
+.add-solution, .open-research{
+    color: #E6E9F3;
+    font-family: "TTFirs-Medium";
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.add-solution{
+    padding: 28px;
+    background-color: var(--primary-pink);
+    margin-right: 30px;
+}
+.open-research{
+    padding: 28px 88px;
+    background-color: var(--primary-blue);
+}
+.filter{
+    max-width: 832px;
+    background-color: var(--primary-gray);
+    border-radius: 7px;
+    padding: 20px 57px;
+    margin-bottom: 40px;
+}
+.filter-item{display: flex; align-items: center;}
+.filter-name{
+    font-family: "TTFirs-Bold";
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--dark-text);
+    margin-left: 14px;
+}
+.solutions{ flex-wrap: wrap;}
+.solution_item{
+    padding: 45px 37px;
+    width: 32%;
+    background-color: #fff;
+    border: 0.5px solid #000000;
+    box-sizing: border-box;
+    margin-right: 32px;
+    margin-bottom: 32px;
+}
+.solution_item:hover{
+    background-color: var(--primary-gray);
+    cursor: pointer;
+}
+.solution_item:hover .add_btn{background-color: var(--primary-gray);}
+.solution_item:last-child, .solution_item:nth-child(3){margin-right: 0;}
+.logo_item{margin-bottom: 35px;}
+.date{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 130%;
+    text-transform: uppercase;
+    color: var(--type-color);
+    margin-bottom: 5px;
+}
+.title_item{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration-line: underline;
+    color: var(--dark-text);
+    margin-bottom: 15px;
+}
+.description_item{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--dark-text);
+    margin-bottom: 30px;
+}
+.type_item{
+    padding: 4px 8px;
+    background-color: var(--type-color);
+    color: var(--white-text);
+    font-family: "TTFirs-Medium";
+    font-size: 14px;
+    line-height: 140%;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    width: fit-content;
+}
+.add_btn{
+    font-family: "TTFirs-Medium";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--black-text);
+    border: 1px solid var(--primary-pink);
+    margin-top: 21px;
+    padding: 17px 20px;
+}
+.more{
+    font-family: "TTFirs-Bold";
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: var(--primary-pink);
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.about{margin-top: 100px;}
+.title-feedback{
+    font-family: "TTFirs-Medium";
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--primary-gray);
+    width: 380px;
+}
+.customers, .companies, .slide{display: flex;}
+.customers, .companies{
+    padding-top: 35px; padding-bottom: 50px; 
+    border-top: 1px solid #40405D; border-bottom: 1px solid #40405D;
+    justify-content: space-between;
+}
+.rev_slider{width: 60%;}
+.avatar{border-radius: 7px; margin-right: 23px;}
+.name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--white-text);
+    margin-bottom: 12px;
+}
+.organization{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--type-color);
+    margin-bottom: 19px;
+}
+.text-back{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--white-text);
+    margin-bottom: 10px;
+}
+.slick-dots{text-align: left;}
+.slick-dots li button::before{font-size: 15px; color: var(--type-color);}
+.slick-dots li.slick-active button::before{color: var(--primary-pink);}
+.slick-prev, .slick-next{display: none !important;}
