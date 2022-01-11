@@ -209,13 +209,14 @@ ul.ssubmenuu li:hover{
     color: var(--primary-gray);
     width: 380px;
 }
-.customers, .companies, .slide{display: flex;}
+.customers, .companies, .slide, .faq-block, .news, .footer{display: flex !important;}
 .customers, .companies{
     padding-top: 35px; padding-bottom: 50px; 
     border-top: 1px solid #40405D; border-bottom: 1px solid #40405D;
     justify-content: space-between;
 }
-.rev_slider{width: 60%;}
+.rev_slider, .faq_list, .news_list{width: 80%;}
+.slide{margin-bottom: 30px;}
 .avatar{border-radius: 7px; margin-right: 23px;}
 .name{
     font-family: Roboto;
@@ -248,3 +249,171 @@ ul.ssubmenuu li:hover{
 .slick-dots li button::before{font-size: 15px; color: var(--type-color);}
 .slick-dots li.slick-active button::before{color: var(--primary-pink);}
 .slick-prev, .slick-next{display: none !important;}
+.faq, .media_about_us{margin-top: 100px;}
+.faq-block, .news{justify-content: space-between;}
+.faq_img, .news_icon{height: 200px;}
+.hide,
+.faq_item div {   display: none;}
+.faq-name {
+    font-family: TTFirs-Medium;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-bottom: 36px;
+    color: var(--primary-gray);
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+}
+.faq_item{   border-bottom: 1px solid #75768D;}
+.hide:checked + label + div {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    color: var(--type-color);
+    display: block; 
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 45px;
+}
+.hide + .faq-name::before {
+    content: url("../img/arrow_bottom.svg");
+    display: block;
+    float: right;
+    margin: 3px 5px;
+}
+.hide:checked + label:before {
+    content: url("../img/arrow_top.svg");;
+}
+.media_about_us{margin-bottom: 100px;}
+.news-title{
+    font-family: "TTFirs-Bold";
+    font-size: 32px;
+    line-height: 120%;
+    color: var(--primary-gray);
+    margin-bottom: 25px;
+}
+.news-descript{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 130%;
+    color: var(--type-color);
+    margin-bottom: 25px;
+}
+.go-btn{
+    font-family: TTFirs-Medium;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    color: var(--primary-pink);
+    margin-bottom: 25px;
+}
+.news_item{
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgba(226,229,239,0.20);
+}
+.contact{
+    display: grid;
+    padding: 41px 104px 50px 68px;
+    background-color: var(--footer-bg);
+}
+.footer_logo{margin-bottom: 39px;}
+.email, .phone, .adress{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--primary-gray);
+    margin-bottom: 15px;
+}
+.copyright{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 180%;
+    color: #73758D;
+}
+.footer_info{
+    padding: 36px 68px 56px 57px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--footer-info-bg);
+    width: 100%;
+}
+.footer_form{
+    display: grid;
+    max-width: 50%;
+}
+.footer_link, .form-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #504F7E;
+    margin-bottom: 10px;
+}
+.footer_item_link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #504F7E;
+    margin-bottom: 5px;
+}
+.footer_list{margin-bottom: 35px;}
+.input_email{
+    padding: 20px 25px;
+    border: none;
+    width: 45%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.1em;
+    color: #504F7E;
+}
+.submit{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 52.5%;
+    text-align: center;
+    border: none;
+    background-color: var(--dark-text);
+    font-family: "TTFirs-Medium";
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-text);
+}
+.policy{margin-bottom: 20px;}
+.policy, .policy_link{
+    font-family: "TTFirs-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--footer-link);
+    width: 45%;
+}
+.policy_link{text-decoration: underline;}
+.legacy_link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 78.5%;
+    color: #504F7E;
+    margin-bottom: 10px;
+}
