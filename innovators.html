@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <title>Запросы от бизнеса</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div class="main-block  innovators-block">  
+        <header class="header">
+                <div class="header-body">
+                    <div class="logos">
+                        <img src="img/logo1.png" alt="Карта инновационных решений логотип" class="logo-solutions white">
+                        <img src="img/logo2.png" alt="Агенство инноваций г.Москвы логотип" class="agency-mos">
+                    </div>
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                    <nav class="header-nav">
+                        <ul class="menu">
+                            <li class="item"><a href="#" class="link-item tasks">Запросы от бизнеса</a></li>
+                            <li class="item"><a href="#person" class="link-item personal open-modal">Личный кабинет</a>
+                                <ul class="ssubmenuu">
+                                    <li><a href="#">Разработчик</a></li>
+                                    <li><a href="#">Заказчик</a></li>
+                                    <li><a href="#">Модератор</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                
+        </header>
+        <div id="person" class="modal-block">
+            <div class="modal-head">
+                <img class="modal-close" src="img/close.svg" alt="close">
+            </div>
+            <p class="modal-title">Войти в личный кабинет</p>
+           <form action="#" method="post" class="modal-form">
+                <input type="text" name="login" id="login" placeholder="Логин" required class="modal-input">
+                <input type="password" name="pass" id="password" placeholder="Пароль" required class="modal-input password">
+                <input type="checkbox" name="agree" id="agree"><label for="agree" class="check">Даю согласие на обработку ГБУ «Агентство инноваций Москвы» 
+                    моих персональных данных на условиях Соглашения об обработке персональных данных (в случае указания мною в Заявке информации 
+                    о третьих лицах, предоставляю персональные данные таких лиц с их согласия).   </label>
+                <input type="checkbox" name="agree" id="agree2"><label for="agree2" class="check">Ознакомлен и принимаю условия Пользовательского соглашения.</label>
+                <button type="submit" name="come" class="form-btn">Войти</button>
+           </form>
+        </div>
+        <div id="overlay"></div>
+        <div class="container">
+            <div class="info-block">
+                <a href="#" class="add-new">Добавить решение</a>
+                <div class="info-text innovations">
+                    <h1 class="main-title">Инноваторам</h1>
+                    <p class="description">Расскажите о своем продукте городским и коммерческим заказчикам</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="working-block innovator-work">
+        <h2 class="innovator-title title container">Что мне дает размещение на КАРТЕ?</h2>
+
+        <div class="innovator_work_top_block">
+            <div class="work_top_top_block">
+                <div class="step1">
+                    <span class="number">01</span>
+                    <p class="name-block">ПОДБОРКИ ИННОВАЦИОННЫХ РЕШЕНИЙ</p>
+                    <p class="descript-block">Добавление вашего продукта в каталог даёт возможность попасть в подборки инновационных решений для городских и коммерческих заказчиков.</p>
+                </div>
+                <div class="top_top_step1"></div>
+            </div>
+            <div class="work_top_bottom_block">
+                <div class="top_bottom_step2"></div>
+                <div class="step2">
+                    <span class="number">02</span>
+                    <p class="name-block">Демонстрационные сессии</p>
+                    <p class="descript-block">Вы можете лично представить свой продукт потенциальным заказчикам, ответить на их вопросы и получить обратную связь.</p>
+                </div>
+            </div>
+        </div>
+        <div class="innovator_work_bottom_block">
+            <div class="work_bottom_top_block">
+                <div class="bottom_top_step3"></div>
+                <div class="step3">
+                    <span class="number">03</span>
+                    <p class="name-block">ГОРОДСКИЕ ЗАПРОСЫ</p>
+                    <p class="descript-block">Мы публикуем информацию об актуальных задачах Москвы, чтобы Вы могли предложить свое решение.</p>
+                </div>  
+            </div>
+            <div class="work_bottom_bottom_block">
+                <div class="bottom_bottom_step4"></div>
+                <div class="step4">
+                    <span class="number">04</span>
+                    <p class="name-block">Госзаказ</p>
+                    <p class="descript-block">Уникальные характеристики вашего решения могут отображаться на портале государственных закупок 
+                        в статусе инновационной продукции, что обеспечит закупку вашей продукции по 44-ФЗ.</p>
+                </div>
+                <div class="top_left_img interest-block">
+                    <p class="question">Заинтересованы во внедрении инноваций?</p>
+                    <button class="ask">Оставить запрос</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="contact">
+            <img src="img/logo2.png" alt="Агенство инноваций г.Москвы логотип" class="footer_logo first">
+            <img src="img/logo1.png" alt="Карта инновационных решений логотип" class="footer_logo second">
+            <a href="mailto:innovationmap@develop.mos.ru" class="email">innovationmap@develop.mos.ru</a>
+            <a href="tel:+7(499)225-92-52" class="phone">+7 (499) 225-92-52</a>
+            <p class="adress">125009, Москва, Вознесенский пер. 22</p>
+            <p class="copyright">© ГБУ «Агентство инноваций Москвы», 2021</p>
+        </div>
+        <div class="footer_info">
+            <div class="footer_menu">
+                <a href="#" class="about_link footer_link">О проекте</a>
+                <ul class="footer_list">
+                    <li class="footer_item"><a href="#" class="footer_item_link">Для кого?</a></li>
+                    <li class="footer_item"><a href="#" class="footer_item_link">Часто задаваемые вопросы</a></li>
+                    <li class="footer_item"><a href="#" class="footer_item_link">Производителям</a></li>
+                    <li class="footer_item"><a href="#" class="footer_item_link">Заказчикам</a></li>
+                    <li class="footer_item"><a href="#" class="footer_item_link">Модератору</a></li>
+                </ul>
+                <a href="#" class="services footer_link">Сервисы</a>
+                <ul class="footer_list2">
+                    <li class="footer_item"><a href="#" class="footer_item_link">Запросы от бизнеса</a></li>
+                </ul>
+            </div>
+            <div class="footer_form">
+                <p class="form-title">Хотите быть в курсе новостей?</p>
+                <form action="#" method="post">
+                    <input type="email" name="email" class="input_email" placeholder="YOUR@EMAIL.RU" required> <br>
+                    <button type="submit" class="submit">Подписаться</button>
+                </form>
+                <p class="policy">Подписываясь, вы соглашаетесь с условиями 
+                    <a href="#" class="policy_link">Пользовательского соглашения</a> 
+                    и <a href="#" class="policy_link">Соглашения на обработку персональных данных</a>. </p>
+                
+                <a href="#" class="legacy_link">Порядок размещения решений на Карте</a>
+                <a href="#" class="legacy_link">Пользовательское соглашение</a>
+                <a href="#" class="legacy_link last">Согласие на обработку персональных данных</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
