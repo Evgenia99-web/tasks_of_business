@@ -683,3 +683,41 @@ ul.ssubmenuu li:hover{
     background: url("../img/innovator_bg2.png") no-repeat center 75%;
 }
 .innovator_work_bottom_block{border-top: 0.5px solid rgba(109, 108, 108, 0.61);}
+
+@media(min-width:2048px){
+    .header {margin-bottom: 300px;}
+    .header-body {height: 230px;}
+    .logos img {height: 100px;}
+    .personal { padding: 110px 55px; }
+    .tasks {padding: 110px 50px;}
+    .link-item { font-size: 18px;}
+    .main-title {
+        font-size: 120px;
+        line-height: 126px;
+        letter-spacing: 0.1em;
+        max-width: 847px;
+        margin-bottom: 40px;
+    }
+    .description {font-size: 40px;}
+    .add-solution { padding: 45px; }
+    .open-research {padding: 45px 88px;}
+    .add-solution, .open-research { font-size: 25px;}
+    .innovations-block, .innovators-block {   height: 80vh;   }
+    .work_top_left_block div {   width: 33.5vw;  }
+    .number {font-size: 100px;}
+    .name-block {font-size: 49px;}
+    .descript-block { font-size: 27px;}
+    .step1 .number {margin: 110px 0 10px 83px; }
+    .step1 .name-block { margin: 264px 75px 28px 83px;  }
+    .step2 .number { margin: 110px 0 25px 33px; }
+    .step2 .name-block { margin: 264px 16px 28px 33px;  }
+    .step3 .number, .step4 .number {margin: 142px 0 10px 83px;  }
+    .step3 .name-block, .step4 .name-block { margin: 290px 75px 28px 83px; }
+    .top_left_img {width: 33.33vw; }
+    .work_bottom_right_block {width: 67vw;}
+    .work_bottom_left_block { width: 33.5vw; }
+    .contact { width: 33.4vw;}
+    .footer_menu { width: 33.5vw; }
+    .question { font-size: 71px;}
+    .ask {    padding: 30px 73px;    font-size: 29px;}
+}
